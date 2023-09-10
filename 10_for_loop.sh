@@ -11,6 +11,16 @@ do
 done
 
 echo 'Another for loop'
+echo
+for (( c=1; c<=5; c++ ))
+do  
+    echo "Welcome $c times"
+done
+
+echo "================================================"
+echo
+echo 'Another for loop'
+echo
 for VAR2 in {1..10}
 do 
     echo "$VAR2 times 19 is $((VAR2*19))"
